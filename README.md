@@ -1,5 +1,3 @@
-# atom_language_pack_for_irrlicht
+# language-cpp-irrlicht
 
-a c++ grammar extension for some Irrlicht lib keywords
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+An atom editor c++ grammar extension for some Irrlicht lib keywords (http://irrlicht.sourceforge.net)
