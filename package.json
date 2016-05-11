@@ -1,0 +1,18 @@
+{
+  "name": "language-cpp-irrlicht",
+  "main": "./lib/language-cpp-irrlicht",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-cpp-irrlicht:toggle"
+  },
+  "repository": "https://github.com/atom/language-cpp-irrlicht",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
