@@ -5,11 +5,16 @@
     "name": "dixx",
     "email": "jenzdixx@googlemail.com"
   },
-  "description": "This package adds some grammar hooks for Irrlicht engine keywords.",
-  "repository": "https://github.com/dixx/language-cpp-irrlicht",
+  "description": "This package adds some grammar for Irrlicht engine keywords. It depends on language-cpp14.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dixx/language-cpp-irrlicht"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "language-c++14": "git+https://github.com/jbw3/language-cpp14.git"
+  }
 }
