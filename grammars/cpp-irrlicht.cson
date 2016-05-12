@@ -20,9 +20,9 @@
 ]
 
 'patterns': [
-  {
-    'match': '\\b(i32|u32|f32)\\b'
-    'name': 'storage.type.irrlicht.cpp'
-  },
+    {
+      'match': '\\b(c8|u8|u16|u32|u64|s8|s16|s32|s64|f32|f64|fschar_t|IrrlichtDevice)\\b'
+      'name': 'storage.type.irrlicht.cpp'
+    },
   { 'include': 'source.cpp' }
 ]
