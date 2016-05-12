@@ -1,18 +1,15 @@
 {
   "name": "language-cpp-irrlicht",
-  "main": "./lib/language-cpp-irrlicht",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "language-cpp-irrlicht:toggle"
+  "version": "0.0.1",
+  "author": {
+    "name": "dixx",
+    "email": "jenzdixx@googlemail.com"
   },
-  "repository": "https://github.com/atom/language-cpp-irrlicht",
+  "description": "This package adds some grammar hooks for Irrlicht engine keywords.",
+  "repository": "https://github.com/dixx/language-cpp-irrlicht",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

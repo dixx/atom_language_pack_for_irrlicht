@@ -1,0 +1,27 @@
+'scopeName': 'source.cpp'
+'name': 'C++ Irrlicht'
+
+'fileTypes': [
+  'c++'
+  'cc'
+  'cp'
+  'cpp'
+  'cxx'
+  'h'
+  'h++'
+  'hh'
+  'hpp'
+  'hxx'
+  'inc'
+  'inl'
+  'ipp'
+  'tcc'
+  'tpp'
+]
+
+'patterns': [
+  {
+    'match': '\\b(i32|u32|f32)\\b'
+    'name': 'storage.type.cpp'
+  }
+]
