@@ -20,9 +20,21 @@
 ]
 
 'patterns': [
-    {
-      'match': '\\b(c8|u8|u16|u32|u64|s8|s16|s32|s64|f32|f64|fschar_t|IrrlichtDevice)\\b'
+    { # namespace trails
+      'match': '\\b(core|gui|io|quake|scene|video)::\\b'
+      'name': 'entity.name.type.irrlicht.cpp'
+    },
+    { # irr types
+      'match': '\\b(?:c8|u8|u16|u32|u64|s8|s16|s32|s64|f32|f64|fschar_t|IrrlichtDevice)\\b'
       'name': 'storage.type.irrlicht.cpp'
     },
+    { # irr::core types
+      'match': '\\b(?:aabbox3d|aabbox3df|aabbox3di|array|dimension2d|dimension2df|dimension2di|dimension2du|irrAllocator|irrAllocatorFast|line2d|line2df|line2di|line3d|line3df|line3di|list|map|matrix4|plane3d|plane3df|plane3di|position2d|position2df|position2di|quaternion|rect|recti|string|stringc|stringw|triangle3d|triangle3df|triangle3di|vector2d|vector2df|vector2di|vector3d|vector3df|vector3di)\\b'
+      'name': 'storage.type.irrlicht.cpp'
+    },
+    { # irr::io types
+      'match': '\\b(?:path|char16|char32)'
+      'name': 'storage.type.irrlicht.cpp'
+    }
   { 'include': 'source.cpp' }
 ]
