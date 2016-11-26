@@ -21,7 +21,7 @@
 
 'patterns': [
     { # namespace trails
-      'match': '\\b(core|gui|io|quake|scene|video)::\\b'
+      'match': '\\b(irr|core|gui|io|quake|scene|video)::\\b'
       'name': 'entity.name.type.irrlicht.cpp'
     },
     { # irr types
